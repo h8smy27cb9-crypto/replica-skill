@@ -1,0 +1,46 @@
+feature,area,priority,original,clone,notes
+Sign in with phone Apple or Google,onboarding,must,yes,no,S01 medium confidence
+Age gate 18+ at signup,onboarding,must,yes,no,18+ age assurance on listing; required by App Store
+Onboarding: name birthday gender show-me,onboarding,must,yes,no,S02
+Photo upload with reorder (min count),profile,must,yes,no,S02 S10
+Bio and interests,profile,must,yes,no,listing bullets
+Location permission and distance,discovery,must,yes,no,privacy labels: precise location
+Discovery deck with swipe Like and Nope,discovery,must,yes,no,S03 core loop
+Deck excludes swiped blocked and hidden users,discovery,must,yes,no,S03
+Distance age and show-me filters,discovery,must,yes,no,S12
+Full profile view,discovery,must,yes,no,S04
+Mutual like creates a match,matching,must,yes,no,S05
+Matches and conversation list,chat,must,yes,no,S06
+Realtime one-to-one chat with push,chat,must,yes,no,S07
+Unmatch removes chat for both,safety,must,yes,no,source 4
+Block and report from profile or chat,safety,must,yes,no,S17 sources 3 4
+Photo moderation queue,safety,must,yes,no,inferred; needed for App Store review
+Delete account,settings,must,yes,no,App Store rule
+Prompt answers on profile,profile,should,yes,no,listing bullet
+Relationship intent on profile and in matching,profile,should,yes,no,version notes 17.39-17.44
+Photo verification by video selfie,safety,should,yes,no,S11 source 4
+Verified-only messages setting,safety,should,yes,no,source 4
+Are-you-sure nudge before offensive message,safety,should,yes,no,source 4
+Does-this-bother-you flag on received message,safety,should,yes,no,source 4
+Contact-exchange safety alert,safety,should,yes,no,source 4
+Safety Center,safety,should,yes,no,S16
+Share date plans with a friend,safety,should,yes,no,S18 listing bullet
+Likes You grid locked behind paywall,monetization,should,yes,no,S08 review evidence
+Subscription tiers via Apple IAP,monetization,should,yes,no,Plus Gold Platinum S14
+Super Likes consumable,monetization,should,yes,no,IAP 3 and 5 packs
+Boost consumable,monetization,should,yes,no,IAP 1 Boost
+Daily like limit for free users,monetization,should,yes,no,medium confidence; confirm
+Rewind last swipe,discovery,could,yes,no,medium confidence; help center blocked
+Global mode / change location,discovery,could,yes,no,listing: around the world
+Filter deck by interests,discovery,could,yes,no,reviewer asked for it; confirm current state
+Block Contacts from address book,safety,could,yes,no,source 4; needs contacts permission
+Traveler alert for LGBTQ+ users,safety,could,yes,no,S19 source 4
+Double Date (pair with a friend),modes,could,yes,no,S09 listing
+Group Hangouts,modes,could,yes,no,listing major update
+Hide profile / incognito,settings,could,yes,no,medium confidence
+Read receipts,chat,could,yes,no,guess
+Tinder user base,network,could,yes,skip,the network is theirs; cold start is yours
+Their ranking model and swipe history,discovery,could,yes,skip,rebuild a simple ranker instead
+Brand name logo stamps and copy,brand,could,yes,skip,replica-brand replaces all of it
+Apple TV and visionOS apps,platform,could,yes,skip,outside the core loop
+Their in-house moderation models,safety,could,yes,skip,use your own rules or a vendor
